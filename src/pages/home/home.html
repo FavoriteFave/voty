@@ -5,13 +5,20 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-card *ngFor="let nr of numbero" #entireCard class="cardContent cardAllPassive">
+
+  <ion-card-header style="cursor:pointer; text-align: center;" (click)="showContent(contentBox, entireCard)">
+    Card Header
+  </ion-card-header>
+
+  <ion-card-content class="cardContent cardContentPassive" style="opacity: 0;" #contentBox>
+    <ul>
+      <li>ERSTE FRAGE FÜRTOPIC</li>
+      <li>ZWEITE FRAGE FÜRTOPIC</li>
+      <li>DRITTE FRAGE FÜRTOPCI</li>
+    </ul>
+
+  </ion-card-content>
+<div style="width:100%; height:30px; background-color: grey;">hey</div>
+</ion-card>
 </ion-content>

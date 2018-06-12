@@ -34,7 +34,11 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-profile',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>ACCOUNT</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\profile\profile.html"*/,
+=======
+            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\profile\profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>profile</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\profile\profile.html"*/,
+>>>>>>> laptopBranch
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], ProfilePage);
@@ -123,7 +127,11 @@ var TabsPage = /** @class */ (function () {
         this.tab4Root = __WEBPACK_IMPORTED_MODULE_3__create_create__["a" /* CreatePage */];
     }
     TabsPage = __decorate([
+<<<<<<< HEAD
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabIcon="md-add-circle"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabIcon="md-contact"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabIcon="information-circle"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\tabs\tabs.html"*/
+=======
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab2Root" tabIcon="information-circle"></ion-tab>\n\n  <ion-tab [root]="tab1Root" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabIcon="create"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabIcon="md-contact"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\tabs\tabs.html"*/
+>>>>>>> laptopBranch
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -158,7 +166,11 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-about',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      INFO\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\about\about.html"*/
+=======
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\about\about.html"*/
+>>>>>>> laptopBranch
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AboutPage);
@@ -216,7 +228,11 @@ var HomePage = /** @class */ (function () {
     ], HomePage.prototype, "el1", void 0);
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>HOME</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h2>Welcome to Ionic!</h2>\n\n  <p>\n\n    This starter project comes with simple tabs-based layout for apps\n\n    that are going to primarily use a Tabbed UI.\n\n  </p>\n\n  <p>\n\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n\n    update any existing page or create new pages.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\home\home.html"*/
+=======
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n<ion-card *ngFor="let nr of numbero" #entireCard class="cardContent cardAllPassive">\n\n\n\n  <ion-card-header style="cursor:pointer; text-align: center;" (click)="showContent(contentBox, entireCard)">\n\n    Card Header\n\n  </ion-card-header>\n\n\n\n  <ion-card-content class="cardContent cardContentPassive" style="opacity: 0;" #contentBox>\n\n    <ul>\n\n      <li>ERSTE FRAGE FÜRTOPIC</li>\n\n      <li>ZWEITE FRAGE FÜRTOPIC</li>\n\n      <li>DRITTE FRAGE FÜRTOPCI</li>\n\n    </ul>\n\n\n\n  </ion-card-content>\n\n<div style="width:100%; height:30px; background-color: grey;">hey</div>\n\n</ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\home\home.html"*/
+>>>>>>> laptopBranch
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer2 */]])
@@ -400,7 +416,11 @@ var CreatePage = /** @class */ (function () {
     };
     CreatePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-create',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\create\create.html"*/'<!--\n\n  Generated template for the CreatePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>VOTE ERSTELLEN</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <p>heeeey</p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\create\create.html"*/,
+=======
+            selector: 'page-create',template:/*ion-inline-start:"C:\Users\favorite\Desktop\voty\voty\src\pages\create\create.html"*/'<!--\n  Generated template for the CreatePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>create</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\favorite\Desktop\voty\voty\src\pages\create\create.html"*/,
+>>>>>>> laptopBranch
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], CreatePage);
