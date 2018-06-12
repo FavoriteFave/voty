@@ -1,3 +1,26 @@
 page-home {
+    .cardContent {
+        //transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+        overflow: hidden;
+        transition: all 0.5s ease-out;
+    }
 
+    .cardContentActive {
+        max-height: 300px;
+    }
+
+    .cardContentPassive {
+        max-height: 0px;
+    }
+
+    .cardAllActive {
+        transform: scale(1.1);
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .cardAllPassive {
+        transform: scale(1.0);
+    }
 }
+
