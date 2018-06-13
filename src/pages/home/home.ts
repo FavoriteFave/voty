@@ -10,7 +10,14 @@ export class HomePage {
   @ViewChild('entireCard') el1: ElementRef;
 
   public numbero =  [ 1, 2, 3, 4];
+  public answer;
+  public voteCasted = false;
 
+  public no = 'No';
+  public doughnutChartLabels:string[] = ['Yes', 'No', 'Maybe'];
+  public doughnutChartData:number[] = [4, 10, 1];
+  public doughnutChartType:string = 'doughnut';
+ 
   constructor(
     public navCtrl: NavController,
     private renderer: Renderer2) {}
@@ -31,5 +38,19 @@ export class HomePage {
       this.renderer.addClass(el, 'cardContentActive');
     }
   }
+
+  logAll() {
+    console.log(this.answer);
+    this.voteCasted = true;
+  }
+  
+    // events
+    public chartClicked(e:any):void {
+      console.log(e);
+    }
+   
+    public chartHovered(e:any):void {
+      console.log(e);
+    }
 
 }

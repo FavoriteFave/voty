@@ -1,3 +1,41 @@
 page-create {
+    .item-md.item-block .item-inner {
+        border: none;
+    }
+    .list-md .item-input:last-child {
+        border: none;
+    }
 
+    .item-input ion-input, .item-input ion-textarea {
+        border: 1px solid #dcdde1;
+        border-radius: 2px;
+        padding-left: 10px;
+    }
+
+    .label-md[stacked], .label-md[floating] {
+        margin-left: 10px;
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-weight: 300;
+    }
+
+    .pageContent {
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #dcdde1;
+        border-radius: 5px;
+    }
+
+    .abstimmenButton {
+        width: 100%;
+    }
 }

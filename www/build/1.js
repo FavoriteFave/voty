@@ -22,7 +22,7 @@ var CreatePageModule = /** @class */ (function () {
     function CreatePageModule() {
     }
     CreatePageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_2__create__["a" /* CreatePage */],
             ],
