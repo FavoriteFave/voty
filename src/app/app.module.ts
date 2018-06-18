@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { CreatePage } from '../pages/create/create';
 import { ProfilePage } from '../pages/profile/profile';
+import { VoteCommentsPage } from '../pages/vote-comments/vote-comments';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProfilePage } from '../pages/profile/profile';
     HomePage,
     CreatePage,
     ProfilePage,
+    VoteCommentsPage,
     TabsPage
   ],
   imports: [
@@ -34,6 +36,7 @@ import { ProfilePage } from '../pages/profile/profile';
     HomePage,
     CreatePage,
     ProfilePage,
+    VoteCommentsPage,
     TabsPage
   ],
   providers: [
