@@ -1,3 +1,4 @@
+import { VoteCommentsPage } from './../vote-comments/vote-comments';
 import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -12,6 +13,7 @@ export class HomePage {
   public numbero =  [ 1, 2, 3, 4];
   public answer;
   public voteCasted = false;
+  public tabs1 = VoteCommentsPage;
 
   public no = 'No';
   public doughnutChartLabels:string[] = ['Yes', 'No', 'Maybe'];
@@ -52,5 +54,9 @@ export class HomePage {
     public chartHovered(e:any):void {
       console.log(e);
     }
+
+  navigateTo() {
+      this.navCtrl.push(VoteCommentsPage);
+  }
 
 }

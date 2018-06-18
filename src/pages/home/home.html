@@ -39,7 +39,7 @@
             <ion-radio value="python"></ion-radio>
           </ion-item>
         </ion-list>
-        <button class="abstimmenButton" ion-button color="light" outline (click)="logAll()">Abstimmen</button>
+        <button class="abstimmenButton" ion-button color="dark" outline (click)="logAll()">Abstimmen</button>
       </div>
     </div>
   </ion-card-content>
@@ -47,7 +47,7 @@
   <div>
     <ion-icon name="ios-checkbox-outline" style="color: gray;"></ion-icon>
   </div>
-  <div>
+  <div (click)="navigateTo()">
 
     0<ion-icon name="chatboxes" style="color: gray;"></ion-icon>
   </div>
